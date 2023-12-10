@@ -1,0 +1,12 @@
+goos: linux
+goarch: amd64
+pkg: algo/binarysearch/v2
+cpu: 12th Gen Intel(R) Core(TM) i7-12700H
+BenchmarkBinary10-20         	286288594	         4.116 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBinary100-20        	200357504	         5.906 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBinary1000-20       	100000000	        10.42 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBinary10000-20      	94795654	        12.72 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBinary100000-20     	55735089	        18.36 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBinary1000000-20    	52408260	        22.98 ns/op	       1 B/op	       0 allocs/op
+PASS
+ok  	algo/binarysearch/v2	8.756s

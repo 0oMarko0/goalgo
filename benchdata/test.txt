@@ -1,0 +1,8 @@
+BenchmarkBinary_10-20         	288833649	         4.170 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBinary_100-20        	203553826	         5.989 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBinary_1000-20       	100000000	        10.10 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBinary_10000-20      	94819699	        12.63 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBinary_100000-20     	69464775	        18.30 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBinary_1000000-20    	50616100	        23.18 ns/op	       1 B/op	       0 allocs/op
+PASS
+ok  	algo/binarysearch/v2	9.788s
