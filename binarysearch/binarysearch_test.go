@@ -30,42 +30,42 @@ func TestBinarySearch(t *testing.T) {
 	}
 }
 
-func BenchmarkBinary10(b *testing.B) {
+func BenchmarkBinary_10(b *testing.B) {
 	arr := generateArray(10)
 	for i := 0; i < b.N; i++ {
 		binarySearch(arr, 3)
 	}
 }
 
-func BenchmarkBinary100(b *testing.B) {
+func BenchmarkBinary_100(b *testing.B) {
 	arr := generateArray(100)
 	for i := 0; i < b.N; i++ {
 		binarySearch(arr, 43)
 	}
 }
 
-func BenchmarkBinary1000(b *testing.B) {
+func BenchmarkBinary_1000(b *testing.B) {
 	arr := generateArray(1000)
 	for i := 0; i < b.N; i++ {
 		binarySearch(arr, 343)
 	}
 }
 
-func BenchmarkBinary10000(b *testing.B) {
+func BenchmarkBinary_10000(b *testing.B) {
 	arr := generateArray(10000)
 	for i := 0; i < b.N; i++ {
 		binarySearch(arr, 54)
 	}
 }
 
-func BenchmarkBinary100000(b *testing.B) {
+func BenchmarkBinary_100000(b *testing.B) {
 	arr := generateArray(100000)
 	for i := 0; i < b.N; i++ {
 		binarySearch(arr, 99999)
 	}
 }
 
-func BenchmarkBinary1000000(b *testing.B) {
+func BenchmarkBinary_1000000(b *testing.B) {
 	arr := generateArray(1000000)
 	for i := 0; i < b.N; i++ {
 		binarySearch(arr, 99923)

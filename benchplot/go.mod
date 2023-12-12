@@ -3,6 +3,12 @@ module algo/benchplot/v2
 go 1.21.0
 
 require (
+	github.com/brentp/go-chartjs v0.0.0-20170901194241-a37b166b7875
+	github.com/gonum/floats v0.0.0-20181209220543-c233463c7e82
+	github.com/pkg/browser v0.0.0-20210911075715-681adbf594b8
+)
+
+require (
 	gioui.org v0.2.0 // indirect
 	gioui.org/cpu v0.0.0-20220412190645-f1e9e8c3b1f7 // indirect
 	gioui.org/shader v1.0.6 // indirect
@@ -16,6 +22,7 @@ require (
 	github.com/go-pdf/fpdf v0.8.0 // indirect
 	github.com/go-text/typesetting v0.0.0-20230803102845-24e03d8b5372 // indirect
 	github.com/golang/freetype v0.0.0-20170609003504-e2365dfdc4a0 // indirect
+	github.com/gonum/internal v0.0.0-20181124074243-f884aa714029 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	golang.org/x/exp v0.0.0-20230801115018-d63ba01acd4b // indirect
 	golang.org/x/exp/shiny v0.0.0-20230801115018-d63ba01acd4b // indirect
